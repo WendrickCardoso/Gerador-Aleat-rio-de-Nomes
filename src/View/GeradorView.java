@@ -394,6 +394,11 @@ public class GeradorView extends javax.swing.JFrame {
         });
 
         Button2.setText("Limpar");
+        Button2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Button2ActionPerformed(evt);
+            }
+        });
 
         Button4.setText("Cancelar");
         Button4.addActionListener(new java.awt.event.ActionListener() {
@@ -500,7 +505,7 @@ public class GeradorView extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(344, 344, 344)
                         .addComponent(Button4, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(59, Short.MAX_VALUE))
+                .addContainerGap(58, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -797,6 +802,35 @@ public class GeradorView extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         jFrame1.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void Button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button2ActionPerformed
+        A.setSelected(false);
+        B.setSelected(false);
+        C.setSelected(false);
+        D.setSelected(false);
+        E.setSelected(false);
+        F.setSelected(false);
+        G.setSelected(false);
+        H.setSelected(false);
+        I.setSelected(false);
+        J.setSelected(false);
+        K.setSelected(false);
+        L.setSelected(false);
+        M.setSelected(false);
+        N.setSelected(false);
+        O.setSelected(false);
+        P.setSelected(false);
+        Q.setSelected(false);
+        R.setSelected(false);
+        S.setSelected(false);
+        T.setSelected(false);
+        U.setSelected(false);
+        V.setSelected(false);
+        W.setSelected(false);
+        X.setSelected(false);
+        Y.setSelected(false);
+        Z.setSelected(false);
+    }//GEN-LAST:event_Button2ActionPerformed
 
     /**
      * @param args the command line arguments
